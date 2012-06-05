@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="http://jelix.org/ns/module/1.0">
+    <info id="jediAdmin@florianlb.fr" name="jediAdmin" createdate="2012-05-01">
+        <version date="2012-06-06">1.0pre</version>
+        <label lang="en_EN">jediAdmin</label>
+        <description lang="en_EN" />
+        <license URL="">MIT</license>
+        <copyright>2012 Florian Lonqueu-Brochard</copyright>
+        <creator name="Florian Lonqueu-Brochard" email="" active="true"/>
+        <homepageURL>http://github.com/FlorianLB/jediAdmin</homepageURL>
+    </info>
+    <dependencies>
+        <jelix minversion="1.4pre.*" maxversion="1.4.*"/>
+    </dependencies>
+    <autoload>
+        <class name="jediAdminControllerDaoCrud" file="classes/jediAdminControllerDaoCrud.class.php" />
+    </autoload>
+</module>
